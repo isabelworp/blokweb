@@ -40,11 +40,11 @@ starbucks.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Starbucks home page  
-<img src="images/starbuckshomepage" width="375px" alt="Home Page Starbucks">
+<img src="images/starbuckshomepage.jpg" width="375px" alt="Home Page Starbucks">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Starbucks koffiehuis page 
-<img src="images/starbuckskoffiehuispage" width="375px" alt="Koffiehuis Page Starbucks">
+<img src="images/starbuckskoffiehuispage.jpg" width="375px" alt="Koffiehuis Page Starbucks">
  
 </details>
 
