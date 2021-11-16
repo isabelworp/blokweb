@@ -39,11 +39,11 @@ Responsive
 starbucks.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Starbucks home page  
+Home page  
 <img src="images/starbuckshomepage.jpg" width="375px" alt="Home Page Starbucks">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Starbucks koffiehuis page 
+Koffiehuis page 
 <img src="images/starbuckskoffiehuispage.jpg" width="375px" alt="Koffiehuis Page Starbucks">
  
 </details>
