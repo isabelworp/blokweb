@@ -3,3 +3,43 @@
   box-sizing:border-box;  
 }
 
+section:first-of-type {
+  background-image: url("../images/starbucks.voorpagina.jpg");
+  background-size: 100%;
+}
+
+section:nth-of-type(2) {
+  background-image: url("../images/plaatje1.png");
+  background-size: 100%;
+}
+
+section:nth-of-type(3) {
+  background-image: url("../images/plaatje2.png");
+  background-size: 100%;
+}
+
+section:nth-of-type(4) {
+  background-image: url("../images/plaatje 3.png");
+  background-size: 100%;
+}
+
+img {
+  width: 70%;
+}
+
+img.voorpagina {
+  width: 75%;
+}
+
+img.logo {
+  width: 10%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
