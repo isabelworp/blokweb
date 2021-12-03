@@ -3,43 +3,253 @@
   box-sizing:border-box;  
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: MyFontBold;
+  src: url(../Santana/Santana-Bold.ttf);
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main section:first-of-type {
+  position: relative;
+}
+
+
+main section:first-of-type h1 {
+  position: absolute;
+  top: 5%;
+  font-size: 8vw;
+  color: white;
+}
+
+main section:first-of-type ul {
+  position: absolute;
+  top: 20%;
+  font-size: 2vw;
+  padding: 1em;
+}
+
+
+main section:first-of-type ul li {
+  color: white;
+  position: relative;
+  width: 100%;
+  padding: 2em;
+}
+
+main section:first-of-type ul li span {
+  position: relative;
+  right: 0;
+  left: 0;
+  top: -0.5em;
+  color:red;
+}
+
+main section:first-of-type h1 span {
+  color: red;
+}
+
+/* Voorpagina plaatje */
 section:first-of-type {
-  background-image: url("../images/starbucks.voorpagina.jpg");
+  background-image: url("../images/voorpaginaa.jpg");
   background-size: 100%;
+  padding: 8em;
 }
 
+/* Eerste plaatje */
 section:nth-of-type(2) {
-  background-image: url("../images/plaatje1.png");
-  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(229,14,53,255);
 }
 
+section:nth-of-type(2) image {
+  order: 1;
+}
+
+section:nth-of-type(2) h2 {
+  order: 2;
+}
+
+section:nth-of-type(2) h3 {
+  order: 3;
+}
+
+/* Tweede plaatje */
 section:nth-of-type(3) {
-  background-image: url("../images/plaatje2.png");
-  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(30,57,50,255);
 }
 
+section:nth-of-type(3) image {
+  order: 1;
+}
+
+section:nth-of-type(3) h2 {
+  order: 2;
+}
+
+section:nth-of-type(3) h3 {
+  order: 3;
+}
+
+/* Derde plaatje */
 section:nth-of-type(4) {
-  background-image: url("../images/plaatje 3.png");
-  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(229,14,53,255);
 }
 
-img {
-  width: 70%;
+section:nth-of-type(4) image {
+  order: 1;
 }
 
-img.voorpagina {
-  width: 75%;
+section:nth-of-type(4) h2 {
+  order: 2;
 }
 
-img.logo {
-  width: 10%;
+h1 {
+  color: white;
+  font-family: MyFontBold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  color: white;
+  font-family: MyFontBold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+}
+
+h3 {
+  color: white;
+  font-family: MyFontBold;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+
+ul {
+  font-size: 12px;
+  text-shadow: 2px 2px black;
 }
 
 li {
   list-style: none;
+  color: white;
+  font-family: MyFontBold;
+  text-transform: uppercase;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  padding: 1em;
+}
+
+nav {
+  order:-1;  
+}
+
+/***************/
+/* menu button */
+nav button {
+  width:1em;
+  height:1em;
+  border:none;
+
+  position:relative;
+  z-index:100;
+}
+
+button {
+  position: relative;
+  left: 25em;
+  bottom: 4em;
+  background-color:white;
+}
+
+nav button::before {
+  content:"\2630 "; /* hamburger */
+  transform:scale(.75);
+}
+
+nav.toonMenu  button::before {
+  content:"\274C"; /* rood kruisje */
+}
+
+/*******************/
+/* lijst met links */
+nav ul { 
+  margin: 0;
+  padding:2.1em;
+  background:black;
+  list-style:none;
+  
+  position: absolute;
+  left:0; right:0;
+  transform: scaleY(0);
+  transform-origin: top center;
+  transition:.5s;
+  
+  z-index: 99;
+}
+
+nav.toonMenu ul {
+  transform: scaleY(1);
+}
+
+/************************/
+/* een link in de lijst */
+nav li {
+  margin:0; padding:0;
+}
+
+nav a {
+  display:flex;
+  align-items:center;
+  padding:.25em 1em;
+  border:none;
+}
+
+
+@media (min-width:64em) {
+  nav {
+    justify-self:center;
+    order:0;
+  }
+
+nav button {
+  display:none;
+}
+
+nav ul {
+  position: absolute;
+  transform:none;
+  
+  display:flex;
+  
+  padding:0;
+  background:none;
+}
+
 }
