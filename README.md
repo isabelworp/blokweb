@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Uitwerken voor Kick-Off werkgroep</summary>
 
 ### Auteur:
 Isabel Worp
@@ -28,12 +28,10 @@ Responsive
 
 
 
-
-
 ## Je website
 
 <details>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Uitwerken voor Kick-Off werkgroep</summary>
 
 ### Je opdracht:
 starbucks.com
@@ -49,53 +47,39 @@ Koffiehuis page
 </details>
 
 
-
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary>Uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
 <img src="images/breakdown.schets1.jpg" width="375px" alt="breakdown van de hele pagina 1">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/menustarbucks" width="375px" alt="menu starbucks">
 
 </details>
-
-
-
 
 
 ## Voortgang 1 (week 2)
 
 <details open>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>Uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb zelf veel moeite met html, css en js. Ik vind het zeker leuk om te doen maar ben er  niet de beste in. Zelf ben ik ook nog niet ver met mijn site, alleen de basis html is er.
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Samen met je groepje opstellen (hebben we niet gedaan)
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Verder met html
+- Html zag er goed uit
+- Beginnen aan css
 
 </details>
 
@@ -106,69 +90,48 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>Uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn website ziet er al veel beter uit. Css toegepast en zelfs met hulp van de studentassistent en docent een menu gemaakt. Het begint er al aardig op te lijken.
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+samen met je groepje opstellen ( hebben we niet gedaan )
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Html ziet er goed uit
+- Validator
+- Javascript aanpassen
 
 </details>
-
-
 
 
 
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+<summary>Uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Met VoiceOver werken
+VoiceOver gebruiken is best lastig kwam ik achter. Ik stond er nooit echt bij stil maar her is best lastig om er mee te werken, terwijl er best veel mensen VoiceOver gebruiken.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit kan simpel opgelost worden met natuurlijk de tool zelf en ook dat website makers hun website toegankelijk maken voor iedereen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Goede volgorde
+Het is natuurlijk belangrijk dat je code overzichtelijk is, maar is de code dan overzichtelijk voor iedereen?
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De oplossing hiervoor is dat makers meer gaan werken aan de toegankelijkheid, bijvoorbeeld, altijd de alt tag toevoegen bij bijvoorbeeld plaatjes.
 
 </details>
-
 
 
 
@@ -179,26 +142,21 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn website is nu bijna af, er moeten nog wel wat dingen gebeuren, de website moet responsive zijn en het menu klopt nog niet helemaal. De footer is ook nog niet af dus die moet ook nog verder afgemaakt worden.
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+samen met je groepje opstellen ( hebben we niet gedaan )
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Goed bezig!
+- Footer afmaken
+- Responsive
+- Menu button vergroten
 
 </details>
 
@@ -208,15 +166,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Eindgesprek (week 5)
 
-<details>
-<summary>uitwerken voor eindgesprek</summary>
+<details open>
+<summary>Uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond dit een zeer leerzaam vak. Ik vind code opzich interessant alleen ik heb er wel wat moeite mee. Gelukkig kan ik aan de docent, studentassistenten en klasgenoten om hulp vragen, en op internet staat ook genoeg info. Ik had uiteindelijk het meeste moeite met het responsive maken, maar het is uiteindelijk wel gelukt. 
+De lessen en uitleg waren duidelijk en overzichtelijk, de weken vlogen voorbij en soms was het wel lastig om alles te combineren qua vakken.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/screenshoteinde" alt="schreenshot eindresultaat">
+
+<img src="images/screenshoteinde2" alt="schreenshot eindresultaat pagina 2">
 
 </details>
 
@@ -227,12 +188,16 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
+<summary>Continu bijhouden terwijl je werkt</summary>
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com
+2. https://stackoverflow.com/questions/38213329/how-to-add-css3-transition-with-html5-details-summary-tag-reveal
+3. DLO opdrachten (geforked)
+4. https://css-tricks.com/snippets/css/complete-guide-grid/
+5. https://imagecolorpicker.com/
+6. https://www.digitalocean.com/community/tutorials/css-css-grid-layout-fr-unit
+7. https://house-of-training.nl/les/uitleg-van-het-css-grid/
 
 </details>

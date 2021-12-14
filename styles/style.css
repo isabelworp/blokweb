@@ -1,6 +1,8 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 * {
@@ -11,6 +13,29 @@
 @font-face {
   font-family: MyFontBold;
   src: url(../Santana/Santana-Bold.ttf);
+}
+
+header {
+  display: flex;
+  border-top: 0.5em solid rgba(0, 98, 65, 255);
+  background-color: rgba(247, 247, 247, 255);
+}
+
+header img {
+  width: 4em;
+  padding: .5em;
+}
+
+header nav section {
+  display: flex;
+}
+
+header nav section a:last-of-type {
+  margin-left: auto;
+}
+
+header nav {
+  width: 100%;
 }
 
 main section {
@@ -40,7 +65,7 @@ main section:first-of-type ul {
 
 
 main section:first-of-type ul li {
-  
+
   color: white;
   position: relative;
   width: 100%;
@@ -52,7 +77,7 @@ main section:first-of-type ul li span {
   right: 0;
   left: 0;
   top: -0.5em;
-  color:red;
+  color: red;
 }
 
 main section:first-of-type h1 span {
@@ -60,19 +85,19 @@ main section:first-of-type h1 span {
 }
 
 /* Voorpagina plaatje */
-main section:first-of-type {
+.index main section:first-of-type {
   background-image: url("../images/voorpaginaa.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 5em;
-  
+
 }
 
 /* Eerste plaatje */
 main section:nth-of-type(2) {
   display: flex;
   flex-direction: column;
-  background-color: rgba(229,14,53,255);
+  background-color: rgba(229, 14, 53, 255);
 }
 
 section:nth-of-type(2) image {
@@ -91,7 +116,7 @@ section:nth-of-type(2) h3 {
 main section:nth-of-type(3) {
   display: flex;
   flex-direction: column;
-  background-color: rgba(30,57,50,255);
+  background-color: rgba(30, 57, 50, 255);
 }
 
 section:nth-of-type(3) image {
@@ -110,7 +135,7 @@ section:nth-of-type(3) h3 {
 main section:nth-of-type(4) {
   display: flex;
   flex-direction: column;
-  background-color: rgba(229,14,53,255);
+  background-color: rgba(229, 14, 53, 255);
 }
 
 section:nth-of-type(4) image {
@@ -121,7 +146,7 @@ section:nth-of-type(4) h2 {
   order: 2;
 }
 
-
+/* h1 eerste pagina */
 h1 {
   color: white;
   font-family: MyFontBold;
@@ -150,9 +175,9 @@ h4 {
   font-family: MyFontBold;
 }
 
+/* Tekst schaduw bij unordered list voorpagina */
 ul {
   text-shadow: 2px 2px black;
-  
 }
 
 p {
@@ -160,6 +185,7 @@ p {
   padding: 1em;
 }
 
+/* Order van unordered list voorpagina */
 section:nth-of-type(1) ul {
   display: flex;
   flex-direction: row;
@@ -170,6 +196,7 @@ li {
   color: white;
   font-family: MyFontBold;
   text-transform: uppercase;
+  margin: 1em;
 }
 
 a {
@@ -184,50 +211,48 @@ img {
 }
 
 nav {
-  order:-1;  
+  background-color: rgba(247, 247, 247, 255);
 }
 
-/***************/
-/* menu button */
+
+/* Button in de nav */
 nav button {
-  width:1em;
-  height:1em;
-  border:none;
-
-  position:relative;
-  z-index:100;
+  margin-right: 2em;
+  border: none;
+  z-index: 100;
 }
 
+/* Positioneren button en achtergrond kleur */
 button {
-  position: relative;
-  left: 25em;
-  bottom: 4em;
-  background-color:white;
+  background-color: rgba(247, 247, 247, 255);
 }
 
-nav button::before {
-  content:"\2630 "; /* hamburger */
-  transform:scale(.75);
+/* Hamburger content en de transformatie */
+header nav section button::before {
+  content: "\2630 ";
+  color: rgba(0, 98, 65, 255);
+  font-size: 2.5em;
+
 }
 
-nav.toonMenu  button::before {
-  content:"\274C"; /* rood kruisje */
+/* Rood kruisje */
+nav.toonMenu button::before {
+  content: "\274C";
 }
 
-/*******************/
-/* lijst met links */
-nav ul { 
+/* De lijst in het menu stijlen */
+nav ul {
   margin: 0;
-  padding:2.1em;
-  background:black;
-  list-style:none;
-  
+  padding: 4.2em;
+  background: black;
+  list-style: none;
+
   position: absolute;
-  left:0; right:0;
+  left: 0;
+  right: 0;
   transform: scaleY(0);
   transform-origin: top center;
-  transition:.5s;
-  
+  transition: .5s;
   z-index: 99;
 }
 
@@ -235,58 +260,93 @@ nav.toonMenu ul {
   transform: scaleY(1);
 }
 
-/************************/
-/* een link in de lijst */
 nav li {
-  margin:0; padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
-  display:flex;
-  align-items:center;
-  padding:.25em 1em;
-  border:none;
+  display: flex;
+  align-items: center;
+  padding: .25em 1em;
+  border: none;
 }
 
 
-@media (min-width:64em) {
+@media screen and (min-width:64em) {
   nav {
-    justify-self:center;
-    order:0;
+    justify-self: center;
+    order: 0;
   }
 
+  nav button {
+    display: none;
+  }
 
-nav button {
-  display:none;
+  nav ul {
+    position: unset;
+    transform: none;
+    text-shadow: none;
+
+    display: flex;
+
+    padding: 0;
+    background: none;
+  }
+
+  nav ul li a {
+    color: black;
+  }
+
 }
-
-nav ul {
-  position: absolute;
-  transform:none;
-  
-  display:flex;
-  
-  padding:0;
-  background:none;
-}
-
-} 
 
 /* Footer stylen */
 footer {
-  background-color: rgba(240,240,240,255);
+  background-color: rgba(240, 240, 240, 255);
+
 }
 
-
+/* F van Facebook veranderen */
 footer section:first-of-type {
-  width: 15%;
+  width: 3em;
 }
 
+/* Font aanpassen in summary + de margin */
 summary {
+  display: flex;
   font-family: MyFontBold;
-  margin: 1em;
+  list-style: none;
+  margin: 1.5em;
 }
 
+details summary:after {
+  content: "ᐯ";
+  margin-left: auto;
+
+}
+
+details[open] summary:after {
+  content: "ᐱ";
+}
+
+footer details[open] summary~* {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -20px
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 0px
+  }
+}
+
+
+/* Linkjes in de footer stylen */
 footer a {
   font-family: MyFontBold;
   color: black;
@@ -294,8 +354,10 @@ footer a {
   text-transform: none;
 }
 
+/* Achtergrondkleur veranderen en wat padding toevoegen */
 footer section:nth-of-type(2) {
   background-color: white;
+  border-top: 1px solid grey;
   padding: 1em;
 }
 
@@ -303,21 +365,103 @@ footer details ul {
   margin: 1em;
 }
 
+/* Lijnen toevoegen tussen de tekst */
 footer details {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(191, 191, 191, 255);
 }
 
+footer section:nth-of-type(3) {
+  display: flex;
+  flex: row;
+  background-color: white;
+}
+
+footer section:nth-of-type(3) img {
+  width: 4em;
+}
+
+footer section:nth-of-type(4) {
+  background-color: white;
+}
+
+footer section:nth-of-type(4) ul {
+  padding: 1em;
+}
+
+footer section:nth-of-type(4) li {
+  text-shadow: none;
+  text-transform: none;
+  color: black;
+}
 
 /* Tweede Pagina */
-
 .tweedepagina h1 {
   text-shadow: none;
   color: black;
-  text-align: center;
+  text-align: left;
+  margin: 0.5em;
+  text-transform: none;
 }
 
 .tweedepagina h2 {
-  color: green;
+  color: rgba(43, 138, 20, 255);
   text-align: left;
+  text-transform: none;
 }
 
+.tweedemain a:hover {
+  background-color: rgba(43, 138, 20, 255);
+  color: white;
+  padding: 0;
+  margin: 1em;
+}
+
+.tweedemain a {
+  font-family: MyFontBold;
+  color: rgba(43, 138, 20, 255);
+  padding: 1em;
+}
+
+.tweedemain h2 a {
+  padding: 0;
+}
+
+.tweedemain h2 a:hover {
+  padding: 0;
+  margin: 0;
+}
+
+.tweedemain p a {
+  padding: 0em;
+}
+
+.tweedemain p a:hover {
+  margin: 0;
+}
+
+.tweedemain section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width:30em) {
+
+  .tweedemain section {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  font-family: NoSpace; /*
