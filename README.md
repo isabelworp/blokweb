@@ -175,9 +175,9 @@ De lessen en uitleg waren duidelijk en overzichtelijk, de weken vlogen voorbij e
 
 ### Screenshot(s)
 
-<img src="images/screenshoteinde" alt="schreenshot eindresultaat">
+<img src="images/screenshoteinde.png" width="375px" alt="schreenshot eindresultaat">
 
-<img src="images/screenshoteinde2" alt="schreenshot eindresultaat pagina 2">
+<img src="images/screenshoteinde2.png" width="375px" alt="schreenshot eindresultaat pagina 2">
 
 </details>
 
